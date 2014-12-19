@@ -82,6 +82,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A4478401A4423C3009B70A0 /* resouces */ = {
+			isa = PBXGroup;
+			children = (
+				8A4478411A4423CC009B70A0 /* img */,
+			);
+			name = resouces;
+			sourceTree = "<group>";
+		};
+		8A4478411A4423CC009B70A0 /* img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		8A4478421A4423D7009B70A0 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				8A4478431A4423E2009B70A0 /* viewcontrollers */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		8A4478431A4423E2009B70A0 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				8AACF6AC1A43571C00336C9B /* pinMapsViewController.h */,
+				8AACF6AD1A43571C00336C9B /* pinMapsViewController.m */,
+			);
+			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
 		8AACF68B1A43571C00336C9B = {
 			isa = PBXGroup;
 			children = (
@@ -116,11 +148,11 @@
 		8AACF69D1A43571C00336C9B /* PinMaps */ = {
 			isa = PBXGroup;
 			children = (
+				8A4478421A4423D7009B70A0 /* source */,
+				8A4478401A4423C3009B70A0 /* resouces */,
 				8AACF6A61A43571C00336C9B /* pinMapsAppDelegate.h */,
 				8AACF6A71A43571C00336C9B /* pinMapsAppDelegate.m */,
 				8AACF6A91A43571C00336C9B /* Main.storyboard */,
-				8AACF6AC1A43571C00336C9B /* pinMapsViewController.h */,
-				8AACF6AD1A43571C00336C9B /* pinMapsViewController.m */,
 				8AACF6AF1A43571C00336C9B /* Images.xcassets */,
 				8AACF69E1A43571C00336C9B /* Supporting Files */,
 			);
@@ -461,6 +493,7 @@
 				8AACF6C81A43571D00336C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AACF6C91A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinMapsTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +502,7 @@
 				8AACF6CB1A43571D00336C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
