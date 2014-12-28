@@ -23,6 +23,7 @@
 		8AACF6C11A43571D00336C9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AACF6BF1A43571D00336C9B /* InfoPlist.strings */; };
 		8AACF6C31A43571D00336C9B /* PinMapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AACF6C21A43571D00336C9B /* PinMapsTests.m */; };
 		8AACF6CD1A43573C00336C9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AACF6CC1A43573C00336C9B /* MapKit.framework */; };
+		8AB43A101A457E6000CE13CE /* countryList.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AB43A0F1A457E6000CE13CE /* countryList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		8AACF6C01A43571D00336C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AACF6C21A43571D00336C9B /* PinMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinMapsTests.m; sourceTree = "<group>"; };
 		8AACF6CC1A43573C00336C9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8AB43A0F1A457E6000CE13CE /* countryList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = countryList.json; path = ../../../JSON/countryList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		8A4478401A4423C3009B70A0 /* resouces */ = {
 			isa = PBXGroup;
 			children = (
+				8AB43A111A457E6800CE13CE /* json */,
 				8A4478411A4423CC009B70A0 /* img */,
 			);
 			name = resouces;
@@ -201,6 +204,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8AB43A111A457E6800CE13CE /* json */ = {
+			isa = PBXGroup;
+			children = (
+				8AB43A0F1A457E6000CE13CE /* countryList.json */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -278,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB43A101A457E6000CE13CE /* countryList.json in Resources */,
 				8AACF6B01A43571C00336C9B /* Images.xcassets in Resources */,
 				8AACF6A21A43571C00336C9B /* InfoPlist.strings in Resources */,
 				8AACF6AB1A43571C00336C9B /* Main.storyboard in Resources */,

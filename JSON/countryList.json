@@ -1,0 +1,35 @@
+{"countrylist":
+    
+	{
+     "1":{"name":"Andorra", "latitude":"42.546245", "longitude":"1.601554"},
+     "2":{"name":"United Arab Emirates", "latitude":"23.424076", "longitude":"53.847818"},
+     "3":{"name":"Afghanistan", "latitude":"33.93911", "longitude":"67.709953"},
+     "4":{"name":"Antigua and Barbuda", "latitude":"17.060816", "longitude":"-61.796428"},
+     "5":{"name":"Anguilla", "latitude":"18.220554", "longitude":"18.220554"},
+     "6":{"name":"Albania", "latitude":"41.153332", "longitude":"20.168331"},
+     "7":{"name":"Armenia", "latitude":"40.069099", "longitude":"45.038189"},
+     "8":{"name":"Netherlands Antilles", "latitude":"12.226079", "longitude":"-69.060087"},
+     "9":{"name":"Angola", "latitude":"-11.202692", "longitude":"17.873887"},
+     "10":{"name":"Antarctica", "latitude":"-75.250973", "longitude":"-0.071389"},
+     "11":{"name":"Argentina", "latitude":"-38.416097", "longitude":"-63.616672"},
+     "12":{"name":"American Samoa", "latitude":"-14.270972", "longitude":"-170.132217"},
+     "13":{"name":"Austria", "latitude":"47.516231", "longitude":"14.550072"},
+     "14":{"name":"Australia", "latitude":"-25.274398", "longitude":"133.775136"},
+     "15":{"name":"Aruba", "latitude":"12.52111", "longitude":"-69.968338"},
+     "16":{"name":"Azerbaijan", "latitude":"40.143105", "longitude":"47.576927"},
+     "17":{"name":"Bosnia and Herzegovina", "latitude":"43.915886", "longitude":"17.679076"},
+     "18":{"name":"Barbados", "latitude":"13.193887", "longitude":"-59.543198"},
+     "19":{"name":"Bangladesh", "latitude":"23.684994", "longitude":"90.356331"},
+     "20":{"name":"Belgium", "latitude":"50.503887", "longitude":"4.469936"},
+     "21":{"name":"Burkina Faso", "latitude":"12.238333", "longitude":"-1.561593"},
+     "22":{"name":"Bulgaria", "latitude":"42.733883", "longitude":"25.48583"},
+     "23":{"name":"Bahrain", "latitude":"25.930414", "longitude":"50.637772"},
+     "24":{"name":"Burundi", "latitude":"-3.373056", "longitude":"29.918886"},
+     "25":{"name":"Benin", "latitude":"9.30769", "longitude":"2.315834"},
+     "26":{"name":"Bermuda", "latitude":"32.321384", "longitude":"-64.75737"},
+     "27":{"name":"Brunei", "latitude":"4.535277", "longitude":"114.727669"},
+     "28":{"name":"Bolivia", "latitude":"-16.290154", "longitude":"-63.588653"},
+     "29":{"name":"Brazil", "latitude":"-14.235004", "longitude":"-51.92528"}
+    }
+   
+}

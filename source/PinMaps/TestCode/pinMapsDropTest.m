@@ -74,6 +74,46 @@
         _mapView.mapType = MKMapTypeStandard;
 }
 
+- (IBAction)btnDropRandomPin:(id)sender {
+    //http://stackoverflow.com/questions/18520949/fetching-parsing-data-from-a-json-file-in-ios
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"countryList" ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    /* Log out all whole JSON
+     NSLog(@"The latitude is %@", jsonDictionary);
+    */
+    
+
+    
+    
+    for (NSString *outerKey in jsonDictionary.allKeys) {
+        
+        NSDictionary *slot = [jsonDictionary valueForKey:outerKey];
+        
+        for (NSString *innerKey in slot.allKeys) {
+            NSDictionary *innerDictionary = [slot valueForKey:innerKey];
+        
+            // code
+            NSString * _longitudeO = [innerDictionary valueForKey:@"longitude"];
+            NSString * _latitudeO = [innerDictionary valueForKey:@"latitude"];
+            NSString * _countryO = [innerDictionary valueForKey:@"name"];
+            
+            NSLog(@"longitude : %@, latitude : %@, name %@ :",_longitudeO, _latitudeO, _countryO);
+            
+            MKPointAnnotation *randomAnnotation = [[MKPointAnnotation alloc]init];
+            CLLocationCoordinate2D pinCoordinate;
+            pinCoordinate.latitude = _latitudeO.floatValue;
+            pinCoordinate.longitude = _longitudeO.floatValue;
+            randomAnnotation.coordinate = pinCoordinate;
+            randomAnnotation.title = @"You found me!!";
+            randomAnnotation.subtitle =  [@"Country : " stringByAppendingString:_countryO];
+            [_mapView addAnnotation:randomAnnotation];
+        }
+      
+    }
+    
+}
+
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:
 (MKUserLocation *)userLocation
