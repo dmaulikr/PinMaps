@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A82E7001A5071EB008BC95E /* CityList.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E6FF1A5071EB008BC95E /* CityList.json */; };
+		8A82E7021A507327008BC95E /* jsonTemplate.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E7011A507327008BC95E /* jsonTemplate.json */; };
 		8A9A63681A44AEA400F8AEC8 /* pinMapsDropTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A63671A44AEA400F8AEC8 /* pinMapsDropTest.m */; };
 		8AACF6981A43571C00336C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AACF6971A43571C00336C9B /* Foundation.framework */; };
 		8AACF69A1A43571C00336C9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AACF6991A43571C00336C9B /* CoreGraphics.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A82E6FF1A5071EB008BC95E /* CityList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CityList.json; path = ../../../JSON/CityList.json; sourceTree = "<group>"; };
+		8A82E7011A507327008BC95E /* jsonTemplate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jsonTemplate.json; path = ../jsonTemplate.json; sourceTree = "<group>"; };
 		8A9A63661A44AEA400F8AEC8 /* pinMapsDropTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pinMapsDropTest.h; path = ../TestCode/pinMapsDropTest.h; sourceTree = "<group>"; };
 		8A9A63671A44AEA400F8AEC8 /* pinMapsDropTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pinMapsDropTest.m; path = ../TestCode/pinMapsDropTest.m; sourceTree = "<group>"; };
 		8AACF6941A43571C00336C9B /* PinMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,6 +211,8 @@
 		8AB43A111A457E6800CE13CE /* json */ = {
 			isa = PBXGroup;
 			children = (
+				8A82E7011A507327008BC95E /* jsonTemplate.json */,
+				8A82E6FF1A5071EB008BC95E /* CityList.json */,
 				8AB43A0F1A457E6000CE13CE /* countryList.json */,
 			);
 			name = json;
@@ -289,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A82E7001A5071EB008BC95E /* CityList.json in Resources */,
+				8A82E7021A507327008BC95E /* jsonTemplate.json in Resources */,
 				8AB43A101A457E6000CE13CE /* countryList.json in Resources */,
 				8AACF6B01A43571C00336C9B /* Images.xcassets in Resources */,
 				8AACF6A21A43571C00336C9B /* InfoPlist.strings in Resources */,

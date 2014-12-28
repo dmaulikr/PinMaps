@@ -15,6 +15,7 @@
 - (IBAction)btnZoom:(id)sender;
 - (IBAction)btnChangeMap:(id)sender;
 - (IBAction)btnDropRandomPin:(id)sender;
+- (IBAction)btnDropPinsByCount:(id)sender;
 
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;

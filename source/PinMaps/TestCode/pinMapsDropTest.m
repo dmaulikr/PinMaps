@@ -100,18 +100,30 @@
             
             NSLog(@"longitude : %@, latitude : %@, name %@ :",_longitudeO, _latitudeO, _countryO);
             
-            MKPointAnnotation *randomAnnotation = [[MKPointAnnotation alloc]init];
-            CLLocationCoordinate2D pinCoordinate;
-            pinCoordinate.latitude = _latitudeO.floatValue;
-            pinCoordinate.longitude = _longitudeO.floatValue;
-            randomAnnotation.coordinate = pinCoordinate;
-            randomAnnotation.title = @"You found me!!";
-            randomAnnotation.subtitle =  [@"Country : " stringByAppendingString:_countryO];
-            [_mapView addAnnotation:randomAnnotation];
+            NSString *trimmedLongitudeO = [_longitudeO stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+            NSString *trimmedLatitudeO = [_latitudeO stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+            
+            if ((trimmedLatitudeO.length == 0) || (trimmedLongitudeO.length == 0)) {
+                continue;
+            } else {
+            
+                MKPointAnnotation *randomAnnotation = [[MKPointAnnotation alloc]init];
+                CLLocationCoordinate2D pinCoordinate;
+               
+                pinCoordinate.latitude = _latitudeO.floatValue;
+                pinCoordinate.longitude = _longitudeO.floatValue;
+                randomAnnotation.coordinate = pinCoordinate;
+                randomAnnotation.title = @"You found me!!";
+                randomAnnotation.subtitle =  [@"Country : " stringByAppendingString:_countryO];
+                [_mapView addAnnotation:randomAnnotation];
+            }
         }
       
     }
     
+}
+
+- (IBAction)btnDropPinsByCount:(id)sender {
 }
 
 
@@ -133,6 +145,14 @@
     [_mapView addAnnotation:point];
 
 }
+
+
+/*Lee : Use this function to drop number of pin based on the argument sent by the user*/
+-(id)dropPinsByCount:(int)pincount{
+    
+    
+    return 0;
+};
 
 
 @end
