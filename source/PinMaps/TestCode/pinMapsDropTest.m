@@ -8,6 +8,7 @@
 //Source : http://www.techotopia.com/index.php/Working_with_Maps_on_iOS_7_with_MapKit_and_the_MKMapView_Class
 //http://www.devfright.com/mkpointannotation-tutorial/
 #import "pinMapsDropTest.h"
+#import "constants.h"
 
 @interface pinMapsDropTest ()
 
@@ -76,7 +77,7 @@
 
 - (IBAction)btnDropRandomPin:(id)sender {
     //http://stackoverflow.com/questions/18520949/fetching-parsing-data-from-a-json-file-in-ios
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"countryList" ofType:@"json"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:countryJSONFile ofType:@"json"];
     NSData *data = [NSData dataWithContentsOfFile:filePath];
     NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
     /* Log out all whole JSON
@@ -94,9 +95,9 @@
             NSDictionary *innerDictionary = [slot valueForKey:innerKey];
         
             // code
-            NSString * _longitudeO = [innerDictionary valueForKey:@"longitude"];
-            NSString * _latitudeO = [innerDictionary valueForKey:@"latitude"];
-            NSString * _countryO = [innerDictionary valueForKey:@"name"];
+            NSString * _longitudeO = [innerDictionary valueForKey:keyLongitude];
+            NSString * _latitudeO = [innerDictionary valueForKey:keyLatitude];
+            NSString * _countryO = [innerDictionary valueForKey:keyName];
             
             NSLog(@"longitude : %@, latitude : %@, name %@ :",_longitudeO, _latitudeO, _countryO);
             
@@ -123,7 +124,12 @@
     
 }
 
+
+
+
 - (IBAction)btnDropPinsByCount:(id)sender {
+
+    [self dropPinsByCount:15];
 }
 
 
@@ -150,7 +156,62 @@
 /*Lee : Use this function to drop number of pin based on the argument sent by the user*/
 -(id)dropPinsByCount:(int)pincount{
     
+    //Read from the JSON file
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:countryJSONFile ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
     
+    
+    //create an array and fill the array with random numbers
+    NSMutableArray *arrayOfRandomPinDrops = [NSMutableArray array];
+    for (int i = 0; i < pincount; i++) {
+        [arrayOfRandomPinDrops addObject: [NSNumber numberWithInt: arc4random() % pincount]];
+    }
+    
+    //Drop the pins : Fire in the hole!
+    NSString *randomPinDropIndex;
+    
+    for (NSString *outerKey in jsonDictionary.allKeys) {
+        
+        NSDictionary *slot = [jsonDictionary valueForKey:outerKey];
+        
+        for (int j=0; j <= arrayOfRandomPinDrops.count -1; j++){
+            
+            randomPinDropIndex =  [NSString stringWithFormat:@"%@", [arrayOfRandomPinDrops objectAtIndex:j]];
+            NSLog(@"The random number at Position %d is %@", j, randomPinDropIndex);
+            
+            NSDictionary *innerDictionary = [slot valueForKey:randomPinDropIndex];
+            
+            // code
+            NSString * _longitudeO = [innerDictionary valueForKey:keyLongitude];
+            NSString * _latitudeO = [innerDictionary valueForKey:keyLatitude];
+            NSString * _countryO = [innerDictionary valueForKey:keyName];
+            
+            NSLog(@"longitude : %@, latitude : %@, name %@ :",_longitudeO, _latitudeO, _countryO);
+            
+            NSString *trimmedLongitudeO = [_longitudeO stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+            NSString *trimmedLatitudeO = [_latitudeO stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+            
+            if ((trimmedLatitudeO.length == 0) || (trimmedLongitudeO.length == 0)) {
+                //we do not want blank values for co ordinates.
+                continue;
+            } else {
+                
+                MKPointAnnotation *randomAnnotation = [[MKPointAnnotation alloc]init];
+                CLLocationCoordinate2D pinCoordinate;
+                
+                pinCoordinate.latitude = _latitudeO.floatValue;
+                pinCoordinate.longitude = _longitudeO.floatValue;
+                randomAnnotation.coordinate = pinCoordinate;
+                randomAnnotation.title = @"You found me!!";
+                randomAnnotation.subtitle =  [@"Country : " stringByAppendingString:_countryO];
+                [_mapView addAnnotation:randomAnnotation];
+            }
+            
+        }
+        
+    }
+   
     return 0;
 };
 
