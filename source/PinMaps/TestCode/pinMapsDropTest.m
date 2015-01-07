@@ -32,6 +32,7 @@
     [super viewDidLoad];
     _mapView.showsUserLocation = YES;
     _mapView.delegate = self;
+    _isZoomEnabled = true;
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,6 +67,15 @@
 }
 
 - (IBAction)btnZoom:(id)sender {
+  //Disable zoom http://stackoverflow.com/a/15419639/1051198
+    
+    if (self.isZoomEnabled == true) {
+        self.mapView.zoomEnabled = NO;
+        self.isZoomEnabled = false;
+    } else {
+        self.mapView.zoomEnabled = YES;
+        self.isZoomEnabled =true;
+    }
 }
 
 - (IBAction)btnChangeMap:(id)sender {
@@ -214,6 +224,13 @@
    
     return 0;
 };
+
+
+- (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKPinAnnotationView *)view {
+    //Change the  color of the pin user tap!!
+    //http://stackoverflow.com/a/14623736/1051198
+    view.pinColor = MKPinAnnotationColorGreen;
+}
 
 
 @end

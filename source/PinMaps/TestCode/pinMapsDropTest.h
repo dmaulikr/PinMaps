@@ -19,7 +19,7 @@
 
 -(id)dropPinsByCount:(int)pincount;
 
-
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (nonatomic) BOOL isZoomEnabled;
 
 @end
