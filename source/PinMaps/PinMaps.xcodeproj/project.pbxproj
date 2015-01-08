@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A44D8271A5DADE600CA633D /* pinMapsSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A44D8261A5DADE600CA633D /* pinMapsSettings.m */; };
 		8A82E7001A5071EB008BC95E /* CityList.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E6FF1A5071EB008BC95E /* CityList.json */; };
 		8A82E7021A507327008BC95E /* jsonTemplate.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E7011A507327008BC95E /* jsonTemplate.json */; };
 		8A8ACB171A51CBA50036F46E /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8ACB161A51CBA50036F46E /* constants.m */; };
@@ -58,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A44D8251A5DADE600CA633D /* pinMapsSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pinMapsSettings.h; path = ../logicsrc/pinMapsSettings.h; sourceTree = "<group>"; };
+		8A44D8261A5DADE600CA633D /* pinMapsSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pinMapsSettings.m; path = ../logicsrc/pinMapsSettings.m; sourceTree = "<group>"; };
 		8A82E6FF1A5071EB008BC95E /* CityList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CityList.json; path = ../../../JSON/CityList.json; sourceTree = "<group>"; };
 		8A82E7011A507327008BC95E /* jsonTemplate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jsonTemplate.json; path = ../jsonTemplate.json; sourceTree = "<group>"; };
 		8A8ACB151A51CBA50036F46E /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = ../logicsrc/constants.h; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 		8A4478431A4423E2009B70A0 /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				8A44D8251A5DADE600CA633D /* pinMapsSettings.h */,
+				8A44D8261A5DADE600CA633D /* pinMapsSettings.m */,
 				8AACF6AC1A43571C00336C9B /* pinMapsViewController.h */,
 				8AACF6AD1A43571C00336C9B /* pinMapsViewController.m */,
 			);
@@ -425,6 +430,7 @@
 				8A9A63681A44AEA400F8AEC8 /* pinMapsDropTest.m in Sources */,
 				8AACF6A41A43571C00336C9B /* main.m in Sources */,
 				8AACF6A81A43571C00336C9B /* pinMapsAppDelegate.m in Sources */,
+				8A44D8271A5DADE600CA633D /* pinMapsSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
