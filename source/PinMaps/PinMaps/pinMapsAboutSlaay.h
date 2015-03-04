@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface pinMapsAboutSlaay : UIViewController
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (strong, nonatomic) IBOutlet UIImageView *imgPresley;
 @property (strong, nonatomic) IBOutlet UIImageView *imgVidel;
 @property (strong, nonatomic) IBOutlet UIImageView *imgSanket;
