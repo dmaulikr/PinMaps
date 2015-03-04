@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		8A12AA561AA7734B007C872A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA551AA7734B007C872A /* SWRevealViewController.m */; };
+		8A12AA601AA77482007C872A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA591AA77482007C872A /* MainViewController.m */; };
 		8A12AA611AA77482007C872A /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA5B1AA77482007C872A /* SidebarViewController.m */; };
+		8A12AA631AA77482007C872A /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA5F1AA77482007C872A /* PhotoViewController.m */; };
 		8A12AA751AA774B0007C872A /* comments_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA651AA774B0007C872A /* comments_photo.jpg */; };
 		8A12AA761AA774B0007C872A /* bookmark_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA661AA774B0007C872A /* bookmark_photo.jpg */; };
 		8A12AA771AA774B0007C872A /* tag_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA671AA774B0007C872A /* tag_photo.jpg */; };
@@ -26,10 +27,6 @@
 		8A12AA821AA774B0007C872A /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA721AA774B0007C872A /* photo.png */; };
 		8A12AA831AA774B0007C872A /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA731AA774B0007C872A /* tag.png */; };
 		8A12AA841AA774B0007C872A /* wishlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA741AA774B0007C872A /* wishlist.png */; };
-		8A12AA871AA77C94007C872A /* pinMapsMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA861AA77C94007C872A /* pinMapsMainView.m */; };
-		8A12AA8A1AA77D67007C872A /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA891AA77D67007C872A /* PhotoViewController.m */; };
-=======
->>>>>>> parent of 7e9286a... New slide menu GUI added
 		8A35BC641A6C2F68008BC111 /* GetPixelLovePro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A35BB801A6C2F68008BC111 /* GetPixelLovePro.png */; };
 		8A35BC651A6C2F68008BC111 /* LICENSE_IMPORTANT!.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8A35BB811A6C2F68008BC111 /* LICENSE_IMPORTANT!.txt */; };
 		8A35BC661A6C2F68008BC111 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A35BB831A6C2F68008BC111 /* Add.png */; };
@@ -317,11 +314,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		8A12AA541AA7734B007C872A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		8A12AA551AA7734B007C872A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8A12AA581AA77482007C872A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8A12AA591AA77482007C872A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		8A12AA5A1AA77482007C872A /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
 		8A12AA5B1AA77482007C872A /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		8A12AA5E1AA77482007C872A /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		8A12AA5F1AA77482007C872A /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		8A12AA651AA774B0007C872A /* comments_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comments_photo.jpg; sourceTree = "<group>"; };
 		8A12AA661AA774B0007C872A /* bookmark_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookmark_photo.jpg; sourceTree = "<group>"; };
 		8A12AA671AA774B0007C872A /* tag_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tag_photo.jpg; sourceTree = "<group>"; };
@@ -338,12 +338,6 @@
 		8A12AA721AA774B0007C872A /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		8A12AA731AA774B0007C872A /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
 		8A12AA741AA774B0007C872A /* wishlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wishlist.png; sourceTree = "<group>"; };
-		8A12AA851AA77C94007C872A /* pinMapsMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinMapsMainView.h; sourceTree = "<group>"; };
-		8A12AA861AA77C94007C872A /* pinMapsMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinMapsMainView.m; sourceTree = "<group>"; };
-		8A12AA881AA77D67007C872A /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
-		8A12AA891AA77D67007C872A /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
-=======
->>>>>>> parent of 7e9286a... New slide menu GUI added
 		8A35BB801A6C2F68008BC111 /* GetPixelLovePro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GetPixelLovePro.png; sourceTree = "<group>"; };
 		8A35BB811A6C2F68008BC111 /* LICENSE_IMPORTANT!.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE_IMPORTANT!.txt"; sourceTree = "<group>"; };
 		8A35BB831A6C2F68008BC111 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
@@ -654,7 +648,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
 		8A12AA531AA77340007C872A /* library */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,10 +660,12 @@
 		8A12AA571AA77435007C872A /* slideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				8A12AA881AA77D67007C872A /* PhotoViewController.h */,
-				8A12AA891AA77D67007C872A /* PhotoViewController.m */,
+				8A12AA581AA77482007C872A /* MainViewController.h */,
+				8A12AA591AA77482007C872A /* MainViewController.m */,
 				8A12AA5A1AA77482007C872A /* SidebarViewController.h */,
 				8A12AA5B1AA77482007C872A /* SidebarViewController.m */,
+				8A12AA5E1AA77482007C872A /* PhotoViewController.h */,
+				8A12AA5F1AA77482007C872A /* PhotoViewController.m */,
 			);
 			name = slideMenu;
 			sourceTree = "<group>";
@@ -698,8 +693,6 @@
 			name = slideImages;
 			sourceTree = "<group>";
 		};
-=======
->>>>>>> parent of 7e9286a... New slide menu GUI added
 		8A35BB7E1A6C2F61008BC111 /* icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -982,6 +975,7 @@
 		8A4478401A4423C3009B70A0 /* resouces */ = {
 			isa = PBXGroup;
 			children = (
+				8A12AA641AA77493007C872A /* slideImages */,
 				8A35BB7E1A6C2F61008BC111 /* icons */,
 				8AB43A111A457E6800CE13CE /* json */,
 				8A4478411A4423CC009B70A0 /* img */,
@@ -1002,6 +996,7 @@
 		8A4478421A4423D7009B70A0 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				8A12AA531AA77340007C872A /* library */,
 				8A8ACB141A51CB750036F46E /* logicsource */,
 				8A9A63691A44AEA900F8AEC8 /* TestCode */,
 				8A4478431A4423E2009B70A0 /* viewcontrollers */,
@@ -1012,14 +1007,13 @@
 		8A4478431A4423E2009B70A0 /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				8A12AA571AA77435007C872A /* slideMenu */,
 				8A44D8251A5DADE600CA633D /* pinMapsSettings.h */,
 				8A44D8261A5DADE600CA633D /* pinMapsSettings.m */,
 				8AACF6AC1A43571C00336C9B /* pinMapsViewController.h */,
 				8AACF6AD1A43571C00336C9B /* pinMapsViewController.m */,
 				8A35BD511A6C30FC008BC111 /* pinMapsAboutSlaay.h */,
 				8A35BD521A6C30FC008BC111 /* pinMapsAboutSlaay.m */,
-				8A12AA851AA77C94007C872A /* pinMapsMainView.h */,
-				8A12AA861AA77C94007C872A /* pinMapsMainView.m */,
 			);
 			name = viewcontrollers;
 			sourceTree = "<group>";
@@ -1244,8 +1238,10 @@
 				8A35BD0F1A6C2F68008BC111 /* More@2x.png in Resources */,
 				8A35BC941A6C2F68008BC111 /* Interface_Three_Panel.png in Resources */,
 				8A35BD351A6C2F68008BC111 /* Thumbs.db in Resources */,
+				8A12AA7A1AA774B0007C872A /* menu.png in Resources */,
 				8A8ACB331A51D2FA0036F46E /* appicon-Small@3x.png in Resources */,
 				8A35BCC71A6C2F68008BC111 /* Timer.png in Resources */,
+				8A12AA791AA774B0007C872A /* wishlist_photo.jpg in Resources */,
 				8A35BCE91A6C2F68008BC111 /* Download@2x.png in Resources */,
 				8A35BD311A6C2F68008BC111 /* Stroller@2x.png in Resources */,
 				8A35BC851A6C2F68008BC111 /* Flag.png in Resources */,
@@ -1266,6 +1262,7 @@
 				8A35BC791A6C2F68008BC111 /* Dollar.png in Resources */,
 				8A35BD061A6C2F68008BC111 /* LastFM@2x.png in Resources */,
 				8A35BD0E1A6C2F68008BC111 /* Mobile_Signal@2x.png in Resources */,
+				8A12AA7B1AA774B0007C872A /* menu@2x.png in Resources */,
 				8A35BCAD1A6C2F68008BC111 /* Pill.png in Resources */,
 				8A35BD141A6C2F68008BC111 /* Next@2x.png in Resources */,
 				8A35BC731A6C2F68008BC111 /* Calculator.png in Resources */,
@@ -1281,12 +1278,14 @@
 				8A35BC821A6C2F68008BC111 /* Female.png in Resources */,
 				8A35BCB81A6C2F68008BC111 /* Reset.png in Resources */,
 				8A35BC6E1A6C2F68008BC111 /* Behance.png in Resources */,
+				8A12AA831AA774B0007C872A /* tag.png in Resources */,
 				8A35BD4E1A6C3049008BC111 /* videl.jpg in Resources */,
 				8A35BC8A1A6C2F68008BC111 /* Foursquare.png in Resources */,
 				8A35BCBB1A6C2F68008BC111 /* Ruler.png in Resources */,
 				8A35BC661A6C2F68008BC111 /* Add.png in Resources */,
 				8A35BD231A6C2F68008BC111 /* Reddit@2x.png in Resources */,
 				8A8ACB321A51D2FA0036F46E /* appicon-Small@2x.png in Resources */,
+				8A12AA801AA774B0007C872A /* map.png in Resources */,
 				8A35BC971A6C2F68008BC111 /* LastFM.png in Resources */,
 				8A35BD1A1A6C2F68008BC111 /* Photos@2x.png in Resources */,
 				8A35BD1F1A6C2F68008BC111 /* Previous@2x.png in Resources */,
@@ -1305,6 +1304,7 @@
 				8A35BD391A6C2F68008BC111 /* Tumblr@2x.png in Resources */,
 				8A8ACB3A1A51D2FA0036F46E /* Default.png in Resources */,
 				8A35BCFB1A6C2F68008BC111 /* Github@2x.png in Resources */,
+				8A12AA841AA774B0007C872A /* wishlist.png in Resources */,
 				8AB43A101A457E6000CE13CE /* countryList.json in Resources */,
 				8A35BCAC1A6C2F68008BC111 /* Picasa.png in Resources */,
 				8A35BD071A6C2F68008BC111 /* Layers@2x.png in Resources */,
@@ -1318,6 +1318,7 @@
 				8A35BD081A6C2F68008BC111 /* Light_Bulb@2x.png in Resources */,
 				8A8ACB351A51D2FA0036F46E /* appicon@2x.png in Resources */,
 				8A35BCA01A6C2F68008BC111 /* More.png in Resources */,
+				8A12AA821AA774B0007C872A /* photo.png in Resources */,
 				8A35BCD91A6C2F68008BC111 /* Anchor@2x.png in Resources */,
 				8A35BCD21A6C2F68008BC111 /* Wordpress.png in Resources */,
 				8A35BD261A6C2F68008BC111 /* Reply@2x.png in Resources */,
@@ -1335,6 +1336,7 @@
 				8A35BC6C1A6C2F68008BC111 /* Arrows_Out.png in Resources */,
 				8A35BD371A6C2F68008BC111 /* Top_Charts@2x.png in Resources */,
 				8A35BCDA1A6C2F68008BC111 /* Arrows_In@2x.png in Resources */,
+				8A12AA7D1AA774B0007C872A /* bookmark.png in Resources */,
 				8A35BCDC1A6C2F68008BC111 /* Bebo@2x.png in Resources */,
 				8A35BCB61A6C2F68008BC111 /* Remove.png in Resources */,
 				8A35BCB71A6C2F68008BC111 /* Reply.png in Resources */,
@@ -1360,6 +1362,7 @@
 				8A35BD2F1A6C2F68008BC111 /* Smartphone_Outgoing@2x.png in Resources */,
 				8A35BC881A6C2F68008BC111 /* Forrst.png in Resources */,
 				8A35BD151A6C2F68008BC111 /* Office_Chair@2x.png in Resources */,
+				8A12AA751AA774B0007C872A /* comments_photo.jpg in Resources */,
 				8A35BD4C1A6C3049008BC111 /* casburn.jpg in Resources */,
 				8A35BD321A6C2F68008BC111 /* Stumbleupon@2x.png in Resources */,
 				8A35BC841A6C2F68008BC111 /* Files.png in Resources */,
@@ -1375,10 +1378,12 @@
 				8A35BD421A6C2F68008BC111 /* World_Times@2x.png in Resources */,
 				8A35BCC81A6C2F68008BC111 /* Top_Charts.png in Resources */,
 				8A35BC8F1A6C2F68008BC111 /* Headset.png in Resources */,
+				8A12AA761AA774B0007C872A /* bookmark_photo.jpg in Resources */,
 				8A35BD021A6C2F68008BC111 /* Instagram@2x.png in Resources */,
 				8A35BD211A6C2F68008BC111 /* Reading@2x.png in Resources */,
 				8A35BCA71A6C2F68008BC111 /* Opposite_Arrows.png in Resources */,
 				8A35BD401A6C2F68008BC111 /* Wine_Glass@2x.png in Resources */,
+				8A12AA7E1AA774B0007C872A /* calendar.png in Resources */,
 				8A35BCD11A6C2F68008BC111 /* Wine_Glass.png in Resources */,
 				8A35BD2C1A6C2F68008BC111 /* Shuffle@2x.png in Resources */,
 				8A35BCF81A6C2F68008BC111 /* Forward_Arrow@2x.png in Resources */,
@@ -1405,6 +1410,7 @@
 				8A35BC6F1A6C2F68008BC111 /* Blogger.png in Resources */,
 				8A35BC671A6C2F68008BC111 /* Airdrop.png in Resources */,
 				8A35BC751A6C2F68008BC111 /* Contact.png in Resources */,
+				8A12AA771AA774B0007C872A /* tag_photo.jpg in Resources */,
 				8A35BCFF1A6C2F68008BC111 /* Ice_Cream@2x.png in Resources */,
 				8A35BC9A1A6C2F68008BC111 /* LinkedIn.png in Resources */,
 				8A35BCAB1A6C2F68008BC111 /* Photos.png in Resources */,
@@ -1423,6 +1429,7 @@
 				8A35BCC01A6C2F68008BC111 /* Smartphone_Outgoing.png in Resources */,
 				8A35BC9D1A6C2F68008BC111 /* Map_Path.png in Resources */,
 				8A35BCE11A6C2F68008BC111 /* Browsers@2x.png in Resources */,
+				8A12AA811AA774B0007C872A /* news.png in Resources */,
 				8A35BD5A1A6C323E008BC111 /* facebook_.png in Resources */,
 				8A35BCE21A6C2F68008BC111 /* Calculator@2x.png in Resources */,
 				8A35BCA61A6C2F68008BC111 /* Office_Chair.png in Resources */,
@@ -1474,6 +1481,7 @@
 				8A35BC9B1A6C2F68008BC111 /* Location.png in Resources */,
 				8A8ACB3C1A51D2FA0036F46E /* iTunesArtwork in Resources */,
 				8AACF6AB1A43571C00336C9B /* Main.storyboard in Resources */,
+				8A12AA7C1AA774B0007C872A /* nav_bg.png in Resources */,
 				8A35BCC11A6C2F68008BC111 /* Stopwatch.png in Resources */,
 				8A35BD3E1A6C2F68008BC111 /* Vimeo@2x.png in Resources */,
 				8A35BCB31A6C2F68008BC111 /* Recents.png in Resources */,
@@ -1482,6 +1490,7 @@
 				8A35BCC41A6C2F68008BC111 /* Syncing.png in Resources */,
 				8A35BCE51A6C2F68008BC111 /* Delicious@2x.png in Resources */,
 				8A35BCBA1A6C2F68008BC111 /* RSS.png in Resources */,
+				8A12AA7F1AA774B0007C872A /* comments.png in Resources */,
 				8A35BCB51A6C2F68008BC111 /* Redo_Arrow.png in Resources */,
 				8A35BC811A6C2F68008BC111 /* Favorites.png in Resources */,
 				8A35BD161A6C2F68008BC111 /* Opposite_Arrows@2x.png in Resources */,
@@ -1493,6 +1502,7 @@
 				8A35BD001A6C2F68008BC111 /* Ice_Lolly@2x.png in Resources */,
 				8A35BC901A6C2F68008BC111 /* Ice_Cream.png in Resources */,
 				8A35BCD71A6C2F68008BC111 /* Alarm@2x.png in Resources */,
+				8A12AA781AA774B0007C872A /* calendar_photo.jpg in Resources */,
 				8A35BC961A6C2F68008BC111 /* Keypad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1514,20 +1524,14 @@
 			files = (
 				8A8ACB171A51CBA50036F46E /* constants.m in Sources */,
 				8AACF6AE1A43571C00336C9B /* pinMapsViewController.m in Sources */,
-				8A12AA871AA77C94007C872A /* pinMapsMainView.m in Sources */,
 				8A9A63681A44AEA400F8AEC8 /* pinMapsDropTest.m in Sources */,
-<<<<<<< HEAD
 				8A12AA561AA7734B007C872A /* SWRevealViewController.m in Sources */,
+				8A12AA601AA77482007C872A /* MainViewController.m in Sources */,
 				8A12AA611AA77482007C872A /* SidebarViewController.m in Sources */,
 				8AACF6A41A43571C00336C9B /* main.m in Sources */,
 				8A35BD531A6C30FC008BC111 /* pinMapsAboutSlaay.m in Sources */,
 				8AACF6A81A43571C00336C9B /* pinMapsAppDelegate.m in Sources */,
-				8A12AA8A1AA77D67007C872A /* PhotoViewController.m in Sources */,
-=======
-				8AACF6A41A43571C00336C9B /* main.m in Sources */,
-				8A35BD531A6C30FC008BC111 /* pinMapsAboutSlaay.m in Sources */,
-				8AACF6A81A43571C00336C9B /* pinMapsAppDelegate.m in Sources */,
->>>>>>> parent of 7e9286a... New slide menu GUI added
+				8A12AA631AA77482007C872A /* PhotoViewController.m in Sources */,
 				8A44D8271A5DADE600CA633D /* pinMapsSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

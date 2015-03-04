@@ -7,6 +7,7 @@
 //
 
 #import "pinMapsAboutSlaay.h"
+#import "SWRevealViewController.h"
 
 @interface pinMapsAboutSlaay ()
 
@@ -27,38 +28,47 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setSlideaction];
     
-    self.imgPresley.layer.cornerRadius = self.imgPresley.frame.size.width / 2;
-    self.imgPresley.clipsToBounds = YES;
-    self.imgPresley.layer.borderWidth = 3.0f;
-    self.imgPresley.layer.borderColor = [UIColor greenColor].CGColor;
+    [self roundedControls:_imgPresley];
+        [self roundedControls:_imgVidel];
+        [self roundedControls:_imgSanket];
+        [self roundedControls:_imgCasburn];
+        [self roundedControls:_imgAlison];
+
     
-    self.imgVidel.layer.cornerRadius = self.imgVidel.frame.size.width / 2;
-    self.imgVidel.clipsToBounds = YES;
-    self.imgVidel.layer.borderWidth = 3.0f;
-    self.imgVidel.layer.borderColor = [UIColor greenColor].CGColor;
+
     
-    self.imgSanket.layer.cornerRadius = self.imgSanket.frame.size.width / 2;
-    self.imgSanket.clipsToBounds = YES;
-    self.imgSanket.layer.borderWidth = 3.0f;
-    self.imgSanket.layer.borderColor = [UIColor greenColor].CGColor;
-    
-    
-    self.imgCasburn.layer.cornerRadius = self.imgCasburn.frame.size.width / 2;
-    self.imgCasburn.clipsToBounds = YES;
-    self.imgCasburn.layer.borderWidth = 3.0f;
-    self.imgCasburn.layer.borderColor = [UIColor greenColor].CGColor;
-    
-    self.imgAlison.layer.cornerRadius = self.imgAlison.frame.size.width / 2;
-    self.imgAlison.clipsToBounds = YES;
-    self.imgAlison.layer.borderWidth = 3.0f;
-    self.imgAlison.layer.borderColor = [UIColor greenColor].CGColor;
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)setSlideaction {
+    // Change button color
+    _sidebarButton.tintColor = [UIColor colorWithWhite:0.1f alpha:0.9f];
+    
+    // Set the side bar button action. When it's tapped, it'll show up the sidebar.
+    _sidebarButton.target = self.revealViewController;
+    _sidebarButton.action = @selector(revealToggle:);
+    
+    // Set the gesture
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+}
+
+
+//Rounded buttons
+-(void)roundedControls:(UIImageView*)sender{
+    UIImageView* roundedButton = (UIImageView*)sender;
+    roundedButton.layer.cornerRadius = roundedButton.frame.size.width / 2;
+    roundedButton.clipsToBounds = YES;
+    roundedButton.layer.borderWidth = 1.0f;
+    roundedButton.layer.borderColor = [UIColor greenColor].CGColor;
+    
 }
 
 /*
