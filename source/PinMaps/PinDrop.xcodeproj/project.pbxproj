@@ -600,23 +600,23 @@
 		8A8ACB2B1A51D2FA0036F46E /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
 		8A9A63661A44AEA400F8AEC8 /* pinMapsDropTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pinMapsDropTest.h; path = ../TestCode/pinMapsDropTest.h; sourceTree = "<group>"; };
 		8A9A63671A44AEA400F8AEC8 /* pinMapsDropTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pinMapsDropTest.m; path = ../TestCode/pinMapsDropTest.m; sourceTree = "<group>"; };
-		8AACF6941A43571C00336C9B /* PinMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AACF6941A43571C00336C9B /* PinDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AACF6971A43571C00336C9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AACF6991A43571C00336C9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8AACF69B1A43571C00336C9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8AACF69F1A43571C00336C9B /* PinMaps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinMaps-Info.plist"; sourceTree = "<group>"; };
+		8AACF69F1A43571C00336C9B /* PinDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinDrop-Info.plist"; sourceTree = "<group>"; };
 		8AACF6A11A43571C00336C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AACF6A31A43571C00336C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8AACF6A51A43571C00336C9B /* PinMaps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinMaps-Prefix.pch"; sourceTree = "<group>"; };
+		8AACF6A51A43571C00336C9B /* PinDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinDrop-Prefix.pch"; sourceTree = "<group>"; };
 		8AACF6A61A43571C00336C9B /* pinMapsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pinMapsAppDelegate.h; sourceTree = "<group>"; };
 		8AACF6A71A43571C00336C9B /* pinMapsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pinMapsAppDelegate.m; sourceTree = "<group>"; };
 		8AACF6AA1A43571C00336C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AACF6AC1A43571C00336C9B /* pinMapsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pinMapsViewController.h; sourceTree = "<group>"; };
 		8AACF6AD1A43571C00336C9B /* pinMapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pinMapsViewController.m; sourceTree = "<group>"; };
 		8AACF6AF1A43571C00336C9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8AACF6B51A43571D00336C9B /* PinMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AACF6B51A43571D00336C9B /* PinDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AACF6B61A43571D00336C9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8AACF6BE1A43571D00336C9B /* PinMapsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinMapsTests-Info.plist"; sourceTree = "<group>"; };
+		8AACF6BE1A43571D00336C9B /* PinDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinDropTests-Info.plist"; sourceTree = "<group>"; };
 		8AACF6C01A43571D00336C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AACF6C21A43571D00336C9B /* PinMapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinMapsTests.m; sourceTree = "<group>"; };
 		8AACF6CC1A43573C00336C9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -1082,8 +1082,8 @@
 		8AACF6951A43571C00336C9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AACF6941A43571C00336C9B /* PinMaps.app */,
-				8AACF6B51A43571D00336C9B /* PinMapsTests.xctest */,
+				8AACF6941A43571C00336C9B /* PinDrop.app */,
+				8AACF6B51A43571D00336C9B /* PinDropTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1117,10 +1117,10 @@
 		8AACF69E1A43571C00336C9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AACF69F1A43571C00336C9B /* PinMaps-Info.plist */,
+				8AACF69F1A43571C00336C9B /* PinDrop-Info.plist */,
 				8AACF6A01A43571C00336C9B /* InfoPlist.strings */,
 				8AACF6A31A43571C00336C9B /* main.m */,
-				8AACF6A51A43571C00336C9B /* PinMaps-Prefix.pch */,
+				8AACF6A51A43571C00336C9B /* PinDrop-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1137,7 +1137,7 @@
 		8AACF6BD1A43571D00336C9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AACF6BE1A43571D00336C9B /* PinMapsTests-Info.plist */,
+				8AACF6BE1A43571D00336C9B /* PinDropTests-Info.plist */,
 				8AACF6BF1A43571D00336C9B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -1156,9 +1156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8AACF6931A43571C00336C9B /* PinMaps */ = {
+		8AACF6931A43571C00336C9B /* PinDrop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AACF6C61A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinMaps" */;
+			buildConfigurationList = 8AACF6C61A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinDrop" */;
 			buildPhases = (
 				8AACF6901A43571C00336C9B /* Sources */,
 				8AACF6911A43571C00336C9B /* Frameworks */,
@@ -1168,14 +1168,14 @@
 			);
 			dependencies = (
 			);
-			name = PinMaps;
+			name = PinDrop;
 			productName = PinMaps;
-			productReference = 8AACF6941A43571C00336C9B /* PinMaps.app */;
+			productReference = 8AACF6941A43571C00336C9B /* PinDrop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8AACF6B41A43571D00336C9B /* PinMapsTests */ = {
+		8AACF6B41A43571D00336C9B /* PinDropTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AACF6C91A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinMapsTests" */;
+			buildConfigurationList = 8AACF6C91A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinDropTests" */;
 			buildPhases = (
 				8AACF6B11A43571D00336C9B /* Sources */,
 				8AACF6B21A43571D00336C9B /* Frameworks */,
@@ -1186,9 +1186,9 @@
 			dependencies = (
 				8AACF6BB1A43571D00336C9B /* PBXTargetDependency */,
 			);
-			name = PinMapsTests;
+			name = PinDropTests;
 			productName = PinMapsTests;
-			productReference = 8AACF6B51A43571D00336C9B /* PinMapsTests.xctest */;
+			productReference = 8AACF6B51A43571D00336C9B /* PinDropTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1206,7 +1206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8AACF68F1A43571C00336C9B /* Build configuration list for PBXProject "PinMaps" */;
+			buildConfigurationList = 8AACF68F1A43571C00336C9B /* Build configuration list for PBXProject "PinDrop" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1219,8 +1219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8AACF6931A43571C00336C9B /* PinMaps */,
-				8AACF6B41A43571D00336C9B /* PinMapsTests */,
+				8AACF6931A43571C00336C9B /* PinDrop */,
+				8AACF6B41A43571D00336C9B /* PinDropTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1549,7 +1549,7 @@
 /* Begin PBXTargetDependency section */
 		8AACF6BB1A43571D00336C9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8AACF6931A43571C00336C9B /* PinMaps */;
+			target = 8AACF6931A43571C00336C9B /* PinDrop */;
 			targetProxy = 8AACF6BA1A43571D00336C9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1656,9 +1656,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PinMaps/PinMaps-Prefix.pch";
-				INFOPLIST_FILE = "PinMaps/PinMaps-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PinMaps/PinDrop-Prefix.pch";
+				INFOPLIST_FILE = "PinMaps/PinDrop-Info.plist";
+				PRODUCT_NAME = PinDrop;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1667,9 +1667,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PinMaps/PinMaps-Prefix.pch";
-				INFOPLIST_FILE = "PinMaps/PinMaps-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PinMaps/PinDrop-Prefix.pch";
+				INFOPLIST_FILE = "PinMaps/PinDrop-Info.plist";
+				PRODUCT_NAME = PinDrop;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1689,8 +1689,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "PinMapsTests/PinMapsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PinMapsTests/PinDropTests-Info.plist";
+				PRODUCT_NAME = PinDropTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1707,8 +1707,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PinMaps/PinMaps-Prefix.pch";
-				INFOPLIST_FILE = "PinMapsTests/PinMapsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PinMapsTests/PinDropTests-Info.plist";
+				PRODUCT_NAME = PinDropTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1717,7 +1717,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8AACF68F1A43571C00336C9B /* Build configuration list for PBXProject "PinMaps" */ = {
+		8AACF68F1A43571C00336C9B /* Build configuration list for PBXProject "PinDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AACF6C41A43571D00336C9B /* Debug */,
@@ -1726,7 +1726,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AACF6C61A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinMaps" */ = {
+		8AACF6C61A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AACF6C71A43571D00336C9B /* Debug */,
@@ -1735,7 +1735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AACF6C91A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinMapsTests" */ = {
+		8AACF6C91A43571D00336C9B /* Build configuration list for PBXNativeTarget "PinDropTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AACF6CA1A43571D00336C9B /* Debug */,

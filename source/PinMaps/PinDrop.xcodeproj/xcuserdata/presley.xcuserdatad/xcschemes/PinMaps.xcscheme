@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8AACF6931A43571C00336C9B"
                BuildableName = "PinMaps.app"
-               BlueprintName = "PinMaps"
-               ReferencedContainer = "container:PinMaps.xcodeproj">
+               BlueprintName = "PinDrop"
+               ReferencedContainer = "container:PinDrop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8AACF6B41A43571D00336C9B"
                BuildableName = "PinMapsTests.xctest"
-               BlueprintName = "PinMapsTests"
-               ReferencedContainer = "container:PinMaps.xcodeproj">
+               BlueprintName = "PinDropTests"
+               ReferencedContainer = "container:PinDrop.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8AACF6931A43571C00336C9B"
             BuildableName = "PinMaps.app"
-            BlueprintName = "PinMaps"
-            ReferencedContainer = "container:PinMaps.xcodeproj">
+            BlueprintName = "PinDrop"
+            ReferencedContainer = "container:PinDrop.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8AACF6931A43571C00336C9B"
             BuildableName = "PinMaps.app"
-            BlueprintName = "PinMaps"
-            ReferencedContainer = "container:PinMaps.xcodeproj">
+            BlueprintName = "PinDrop"
+            ReferencedContainer = "container:PinDrop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8AACF6931A43571C00336C9B"
             BuildableName = "PinMaps.app"
-            BlueprintName = "PinMaps"
-            ReferencedContainer = "container:PinMaps.xcodeproj">
+            BlueprintName = "PinDrop"
+            ReferencedContainer = "container:PinDrop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
