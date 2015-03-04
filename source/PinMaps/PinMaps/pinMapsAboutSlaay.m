@@ -35,6 +35,7 @@
         [self roundedControls:_imgSanket];
         [self roundedControls:_imgCasburn];
         [self roundedControls:_imgAlison];
+        self.title = @"Team Slaay";
 
     
 

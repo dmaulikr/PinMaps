@@ -10,7 +10,6 @@
 		8A12AA561AA7734B007C872A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA551AA7734B007C872A /* SWRevealViewController.m */; };
 		8A12AA601AA77482007C872A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA591AA77482007C872A /* MainViewController.m */; };
 		8A12AA611AA77482007C872A /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA5B1AA77482007C872A /* SidebarViewController.m */; };
-		8A12AA631AA77482007C872A /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A12AA5F1AA77482007C872A /* PhotoViewController.m */; };
 		8A12AA751AA774B0007C872A /* comments_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA651AA774B0007C872A /* comments_photo.jpg */; };
 		8A12AA761AA774B0007C872A /* bookmark_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA661AA774B0007C872A /* bookmark_photo.jpg */; };
 		8A12AA771AA774B0007C872A /* tag_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A12AA671AA774B0007C872A /* tag_photo.jpg */; };
@@ -320,8 +319,6 @@
 		8A12AA591AA77482007C872A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		8A12AA5A1AA77482007C872A /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
 		8A12AA5B1AA77482007C872A /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
-		8A12AA5E1AA77482007C872A /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
-		8A12AA5F1AA77482007C872A /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		8A12AA651AA774B0007C872A /* comments_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comments_photo.jpg; sourceTree = "<group>"; };
 		8A12AA661AA774B0007C872A /* bookmark_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookmark_photo.jpg; sourceTree = "<group>"; };
 		8A12AA671AA774B0007C872A /* tag_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tag_photo.jpg; sourceTree = "<group>"; };
@@ -664,8 +661,6 @@
 				8A12AA591AA77482007C872A /* MainViewController.m */,
 				8A12AA5A1AA77482007C872A /* SidebarViewController.h */,
 				8A12AA5B1AA77482007C872A /* SidebarViewController.m */,
-				8A12AA5E1AA77482007C872A /* PhotoViewController.h */,
-				8A12AA5F1AA77482007C872A /* PhotoViewController.m */,
 			);
 			name = slideMenu;
 			sourceTree = "<group>";
@@ -1531,7 +1526,6 @@
 				8AACF6A41A43571C00336C9B /* main.m in Sources */,
 				8A35BD531A6C30FC008BC111 /* pinMapsAboutSlaay.m in Sources */,
 				8AACF6A81A43571C00336C9B /* pinMapsAppDelegate.m in Sources */,
-				8A12AA631AA77482007C872A /* PhotoViewController.m in Sources */,
 				8A44D8271A5DADE600CA633D /* pinMapsSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

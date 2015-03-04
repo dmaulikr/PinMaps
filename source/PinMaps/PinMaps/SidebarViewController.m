@@ -31,7 +31,10 @@
 {
     [super viewDidLoad];
 
-    menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag"];
+    menuItems = @[@"title", @"Game", @"Settings", @"Share", @"TeamSlaay", @"AboutApp",@"ThirdParty" ];
+    
+    //Remove Extra empty cells at the bottom
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
 
 - (void)didReceiveMemoryWarning

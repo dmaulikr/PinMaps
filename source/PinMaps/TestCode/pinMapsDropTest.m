@@ -36,6 +36,7 @@
     _mapView.delegate = self;
     _isZoomEnabled = true;
         [self setSlideaction];
+    self.title = @"PinDrop";
 }
 
 -(void)setSlideaction {
