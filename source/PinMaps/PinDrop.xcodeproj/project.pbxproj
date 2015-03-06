@@ -262,6 +262,10 @@
 		8A35BD5B1A6C323E008BC111 /* github_.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A35BD561A6C323E008BC111 /* github_.png */; };
 		8A35BD5E1A6C323E008BC111 /* twitter_.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A35BD591A6C323E008BC111 /* twitter_.png */; };
 		8A44D8271A5DADE600CA633D /* pinMapsSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A44D8261A5DADE600CA633D /* pinMapsSettings.m */; };
+		8A503A971AA8CF4100F9A976 /* pinMapsSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A503A961AA8CF4100F9A976 /* pinMapsSettingsTableViewController.m */; };
+		8A503A9C1AA8D3A000F9A976 /* like-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A503A991AA8D3A000F9A976 /* like-icon.png */; };
+		8A503A9D1AA8D3A000F9A976 /* play-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A503A9A1AA8D3A000F9A976 /* play-icon.png */; };
+		8A503A9E1AA8D3A000F9A976 /* stop-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A503A9B1AA8D3A000F9A976 /* stop-2-icon.png */; };
 		8A82E7001A5071EB008BC95E /* CityList.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E6FF1A5071EB008BC95E /* CityList.json */; };
 		8A82E7021A507327008BC95E /* jsonTemplate.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E7011A507327008BC95E /* jsonTemplate.json */; };
 		8A8ACB171A51CBA50036F46E /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8ACB161A51CBA50036F46E /* constants.m */; };
@@ -573,6 +577,11 @@
 		8A35BD591A6C323E008BC111 /* twitter_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_.png; sourceTree = "<group>"; };
 		8A44D8251A5DADE600CA633D /* pinMapsSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pinMapsSettings.h; path = ../logicsrc/pinMapsSettings.h; sourceTree = "<group>"; };
 		8A44D8261A5DADE600CA633D /* pinMapsSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pinMapsSettings.m; path = ../logicsrc/pinMapsSettings.m; sourceTree = "<group>"; };
+		8A503A951AA8CF4100F9A976 /* pinMapsSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinMapsSettingsTableViewController.h; sourceTree = "<group>"; };
+		8A503A961AA8CF4100F9A976 /* pinMapsSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinMapsSettingsTableViewController.m; sourceTree = "<group>"; };
+		8A503A991AA8D3A000F9A976 /* like-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-icon.png"; sourceTree = "<group>"; };
+		8A503A9A1AA8D3A000F9A976 /* play-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-icon.png"; sourceTree = "<group>"; };
+		8A503A9B1AA8D3A000F9A976 /* stop-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop-2-icon.png"; sourceTree = "<group>"; };
 		8A82E6FF1A5071EB008BC95E /* CityList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CityList.json; path = ../../../JSON/CityList.json; sourceTree = "<group>"; };
 		8A82E7011A507327008BC95E /* jsonTemplate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jsonTemplate.json; path = ../jsonTemplate.json; sourceTree = "<group>"; };
 		8A8ACB151A51CBA50036F46E /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = ../logicsrc/constants.h; sourceTree = "<group>"; };
@@ -981,6 +990,7 @@
 		8A4478411A4423CC009B70A0 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				8A503A981AA8D39000F9A976 /* App */,
 				8A35BD541A6C323E008BC111 /* logo */,
 				8A35BD461A6C3037008BC111 /* TeamMembers */,
 				8A8ACB181A51D2FA0036F46E /* assets */,
@@ -1009,8 +1019,20 @@
 				8AACF6AD1A43571C00336C9B /* pinMapsViewController.m */,
 				8A35BD511A6C30FC008BC111 /* pinMapsAboutSlaay.h */,
 				8A35BD521A6C30FC008BC111 /* pinMapsAboutSlaay.m */,
+				8A503A951AA8CF4100F9A976 /* pinMapsSettingsTableViewController.h */,
+				8A503A961AA8CF4100F9A976 /* pinMapsSettingsTableViewController.m */,
 			);
 			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		8A503A981AA8D39000F9A976 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8A503A991AA8D3A000F9A976 /* like-icon.png */,
+				8A503A9A1AA8D3A000F9A976 /* play-icon.png */,
+				8A503A9B1AA8D3A000F9A976 /* stop-2-icon.png */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 		8A8ACB141A51CB750036F46E /* logicsource */ = {
@@ -1233,6 +1255,7 @@
 				8A35BD0F1A6C2F68008BC111 /* More@2x.png in Resources */,
 				8A35BC941A6C2F68008BC111 /* Interface_Three_Panel.png in Resources */,
 				8A35BD351A6C2F68008BC111 /* Thumbs.db in Resources */,
+				8A503A9C1AA8D3A000F9A976 /* like-icon.png in Resources */,
 				8A12AA7A1AA774B0007C872A /* menu.png in Resources */,
 				8A8ACB331A51D2FA0036F46E /* appicon-Small@3x.png in Resources */,
 				8A35BCC71A6C2F68008BC111 /* Timer.png in Resources */,
@@ -1342,6 +1365,7 @@
 				8A35BCC51A6C2F68008BC111 /* Tea_Cup.png in Resources */,
 				8A35BD221A6C2F68008BC111 /* Recents@2x.png in Resources */,
 				8A35BCD51A6C2F68008BC111 /* Add@2x.png in Resources */,
+				8A503A9E1AA8D3A000F9A976 /* stop-2-icon.png in Resources */,
 				8A35BD431A6C2F68008BC111 /* YouTube@2x.png in Resources */,
 				8A35BC641A6C2F68008BC111 /* GetPixelLovePro.png in Resources */,
 				8A35BC7B1A6C2F68008BC111 /* Drawers.png in Resources */,
@@ -1456,6 +1480,7 @@
 				8A35BD111A6C2F68008BC111 /* Near_Me@2x.png in Resources */,
 				8A35BC871A6C2F68008BC111 /* Flickr.png in Resources */,
 				8A35BCBD1A6C2F68008BC111 /* Shuffle.png in Resources */,
+				8A503A9D1AA8D3A000F9A976 /* play-icon.png in Resources */,
 				8A35BD3A1A6C2F68008BC111 /* Twitter@2x.png in Resources */,
 				8A35BCD41A6C2F68008BC111 /* YouTube.png in Resources */,
 				8A35BCD81A6C2F68008BC111 /* Albums@2x.png in Resources */,
@@ -1525,6 +1550,7 @@
 				8A12AA611AA77482007C872A /* SidebarViewController.m in Sources */,
 				8AACF6A41A43571C00336C9B /* main.m in Sources */,
 				8A35BD531A6C30FC008BC111 /* pinMapsAboutSlaay.m in Sources */,
+				8A503A971AA8CF4100F9A976 /* pinMapsSettingsTableViewController.m in Sources */,
 				8AACF6A81A43571C00336C9B /* pinMapsAppDelegate.m in Sources */,
 				8A44D8271A5DADE600CA633D /* pinMapsSettings.m in Sources */,
 			);

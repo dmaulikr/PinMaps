@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8AACF6931A43571C00336C9B"
-               BuildableName = "PinMaps.app"
+               BuildableName = "PinDrop.app"
                BlueprintName = "PinDrop"
                ReferencedContainer = "container:PinDrop.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8AACF6B41A43571D00336C9B"
-               BuildableName = "PinMapsTests.xctest"
+               BuildableName = "PinDropTests.xctest"
                BlueprintName = "PinDropTests"
                ReferencedContainer = "container:PinDrop.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8AACF6931A43571C00336C9B"
-            BuildableName = "PinMaps.app"
+            BuildableName = "PinDrop.app"
             BlueprintName = "PinDrop"
             ReferencedContainer = "container:PinDrop.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8AACF6931A43571C00336C9B"
-            BuildableName = "PinMaps.app"
+            BuildableName = "PinDrop.app"
             BlueprintName = "PinDrop"
             ReferencedContainer = "container:PinDrop.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8AACF6931A43571C00336C9B"
-            BuildableName = "PinMaps.app"
+            BuildableName = "PinDrop.app"
             BlueprintName = "PinDrop"
             ReferencedContainer = "container:PinDrop.xcodeproj">
          </BuildableReference>

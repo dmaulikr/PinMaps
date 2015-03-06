@@ -16,6 +16,8 @@
 - (IBAction)btnChangeMap:(id)sender;
 - (IBAction)btnDropRandomPin:(id)sender;
 - (IBAction)btnDropPinsByCount:(id)sender;
+- (IBAction)btnStartClick:(id)sender;
+- (IBAction)btnStopclick:(id)sender;
 
 -(id)dropPinsByCount:(int)pincount;
 

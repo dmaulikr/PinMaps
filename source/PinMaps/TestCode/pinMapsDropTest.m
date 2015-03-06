@@ -158,6 +158,12 @@
     [self dropPinsByCount:15];
 }
 
+- (IBAction)btnStartClick:(id)sender {
+}
+
+- (IBAction)btnStopclick:(id)sender {
+}
+
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:
 (MKUserLocation *)userLocation
