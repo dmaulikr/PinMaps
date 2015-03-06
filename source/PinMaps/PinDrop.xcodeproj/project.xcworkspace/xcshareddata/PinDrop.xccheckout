@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FE174449-2892-4B19-ABCB-2D6471DB2875</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PinDrop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52E1ADDA-7571-4CC9-AD9F-2A3CAF361258</key>
+		<string>https://github.com/slaay/PinMaps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>source/PinMaps/PinDrop.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52E1ADDA-7571-4CC9-AD9F-2A3CAF361258</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/slaay/PinMaps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52E1ADDA-7571-4CC9-AD9F-2A3CAF361258</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52E1ADDA-7571-4CC9-AD9F-2A3CAF361258</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PinMaps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
